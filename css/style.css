@@ -50,32 +50,40 @@ header {
   font-size: 2em;
 }
 
+/* Media rules for responsive behaviour */
 @media (max-width: 900px) {
   #page-title {
     font-size: 2em;
   }
+
   #navbar {
     width: 250px;
   }
+
   #main-doc {
     margin-left: 270px;
   }
 }
 
+/* At screen widths narrower than 701px, navbar occupies top of screen */
 @media (max-width: 700px) {
   #navbar {
     width: 100%;
     border-right: none;
   }
+
   #nav-content {
     height: 200px;
     border-bottom: solid 2px black;
   }
+
   #main-doc {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 300px;
   }
+  
+  /* rule to ensure navlinks jump to correct place on screen taking navbar into account */
   .main-section:before {
     display: block;
     content: "";
