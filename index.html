@@ -1,86 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Technical Documentation Page</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <nav id="navbar">
-            <header id="page-title">HTML Introduction</header>
-            <div id="nav-content">
-                <a href="#What_is_HTML?" class="nav-link">What is HTML?</a>
-                <a href="#HTML_Documents" class="nav-link">HTML Documents</a>
-                <a href="#HTML_Headings" class="nav-link">HTML Headings</a>
-                <a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a>
-                <a href="#HTML_Links" class="nav-link">HTML Links</a>
-                <a href="#HTML_Images" class="nav-link">HTML Images</a>
-                <a href="#HTML_Buttons" class="nav-link">HTML Buttons</a>
-                <a href="#HTML_Lists" class="nav-link">HTML Lists</a>
-                <a href="#References" class="nav-link">References</a>
-            </div>
-        </nav>
-        <main id="main-doc">
-            <section id="What_is_HTML?" class="main-section">
-                <header>What is HTML?</header>
-                <p>HTML is the standard markup language for creating Web pages.</p>
-                <ul>
-                    <li>HTML stands for Hyper Text Markup Language</li>
-                    <li>HTML describes the structure of a Web page</li>
-                    <li>HTML consists of a series of elements</li>
-                    <li>HTML elements tell the browser how to display the content</li>
-                    <li>HTML elements are represented by tags</li>
-                    <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
-                    <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
-                </ul>
-            </section>
-            <section id="HTML_Documents" class="main-section">
-                <header>HTML Documents</header>
-                <p>All HTML documents must start with a document type declaration: <code>&#60!DOCTYPE html&#62</code></p>
-                <p>The HTML document itself begins with <code>&#60html&#62</code> and ends with 
-                    <code>&#60/html&#62</code></p>
-                <p>The visible part of the HTML document is between <code>&#60body&#62</code> and 
-                    <code>&#60/body&#62</code></p>
-            </section>
-            <section id="HTML_Headings" class="main-section">
-                <header>HTML Headings</header>
-                <p>HTML headings are defined with the <code>&#60h1&#62</code> to <code>&#60h6&#62</code> tags.</p>
-                <p><code>&#60h1&#62</code> defines the most important heading. <code>&#60h6&#62</code> 
-                    defines the least important heading.</p>
-            </section>
-            <section id="HTML_Paragraphs" class="main-section">
-                <header>HTML Paragraphs</header>
-                <p>HTML paragraphs are defined with the <code>&#60p&#62</code> tag.</p>
-            </section>
-            <section id="HTML_Links" class="main-section">
-                <header>HTML Links</header>
+
+<head>
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- Navbar to hold page links -->
+    <nav id="navbar">
+        <header id="page-title">HTML Introduction</header>
+        <!-- Div for page links -->
+        <div id="nav-content">
+            <!-- Links can skip to content -->
+            <a href="#What_is_HTML?" class="nav-link">What is HTML?</a>
+            <a href="#HTML_Documents" class="nav-link">HTML Documents</a>
+            <a href="#HTML_Headings" class="nav-link">HTML Headings</a>
+            <a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a>
+            <a href="#HTML_Links" class="nav-link">HTML Links</a>
+            <a href="#HTML_Images" class="nav-link">HTML Images</a>
+            <a href="#HTML_Buttons" class="nav-link">HTML Buttons</a>
+            <a href="#HTML_Lists" class="nav-link">HTML Lists</a>
+            <a href="#References" class="nav-link">References</a>
+        </div>
+    </nav>
+    <!-- Div for main document -->
+    <main id="main-doc">
+        <!-- First section -->
+        <section id="What_is_HTML?" class="main-section">
+            <header>What is HTML?</header>
+            <p>HTML is the standard markup language for creating Web pages.</p>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements are represented by tags</li>
+                <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+                <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+            </ul>
+        </section>
+        <!-- Second section -->
+        <section id="HTML_Documents" class="main-section">
+            <header>HTML Documents</header>
+            <p>All HTML documents must start with a document type declaration: <code>&#60!DOCTYPE html&#62</code></p>
+            <p>The HTML document itself begins with <code>&#60html&#62</code> and ends with
+                <code>&#60/html&#62</code>
+            </p>
+            <p>The visible part of the HTML document is between <code>&#60body&#62</code> and
+                <code>&#60/body&#62</code>
+            </p>
+        </section>
+        <!-- Third section -->
+        <section id="HTML_Headings" class="main-section">
+            <header>HTML Headings</header>
+            <p>HTML headings are defined with the <code>&#60h1&#62</code> to <code>&#60h6&#62</code> tags.</p>
+            <p><code>&#60h1&#62</code> defines the most important heading. <code>&#60h6&#62</code>
+                defines the least important heading.</p>
+        </section>
+        <!-- Fourth section -->
+        <section id="HTML_Paragraphs" class="main-section">
+            <header>HTML Paragraphs</header>
+            <p>HTML paragraphs are defined with the <code>&#60p&#62</code> tag.</p>
+        </section>
+        <!-- Fifth section -->
+        <section id="HTML_Links" class="main-section">
+            <header>HTML Links</header>
             <p>HTML links are defined with the <code>&#60a&#62</code> tag.</p>
             <p>The link's destination is specified in the href attribute.</p>
             <p>Attributes are used to provide additional information about HTML elements.</p>
-            </section>
-            <section id="HTML_Images" class="main-section">
-                <header>HTML Images</header>
-                <p>HTML images are defined with the <code>&#60img&#62</code> tag.</p>
-                <p>The source file (<code>src</code>), alternative text (<code>alt</code>), <code>width</code>, and 
-                    <code>height</code> are provided as attributes.</p>
-            </section>
-            <section id="HTML_Buttons" class="main-section">
-                <header>HTML Buttons</header>
-                <p>HTML buttons are defined with the <code>&#60button&#62</code> tag.</p>
-            </section>
-            <section id="HTML_Lists" class="main-section">
-                <header>HTML Lists</header>
-                <p>HTML lists are defined with the <code>&#60ul&#62</code> (unordered/bullet list) or the 
-                    <code>&#60ol&#62</code> (ordered/numbered list) tag, followed by <code>&#60li&#62</code> 
-                    tags (list items).</p>
-            </section>
-            <section id="References" class="main-section">
-                <header>References</header>
-                <p>Many thanks to <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>, where this 
-                    content was copied from.</p>
-            </section>
-        </main>
-    </body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="js/script.js"></script>
+        </section>
+        <!-- Sixth section -->
+        <section id="HTML_Images" class="main-section">
+            <header>HTML Images</header>
+            <p>HTML images are defined with the <code>&#60img&#62</code> tag.</p>
+            <p>The source file (<code>src</code>), alternative text (<code>alt</code>), <code>width</code>, and
+                <code>height</code> are provided as attributes.
+            </p>
+        </section>
+        <!-- Seventh section -->
+        <section id="HTML_Buttons" class="main-section">
+            <header>HTML Buttons</header>
+            <p>HTML buttons are defined with the <code>&#60button&#62</code> tag.</p>
+        </section>
+        <!-- Eighth section -->
+        <section id="HTML_Lists" class="main-section">
+            <header>HTML Lists</header>
+            <p>HTML lists are defined with the <code>&#60ul&#62</code> (unordered/bullet list) or the
+                <code>&#60ol&#62</code> (ordered/numbered list) tag, followed by <code>&#60li&#62</code>
+                tags (list items).
+            </p>
+        </section>
+        <!-- Ninth section -->
+        <section id="References" class="main-section">
+            <header>References</header>
+            <p>Many thanks to <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>, where this
+                content was copied from.</p>
+        </section>
+    </main>
+</body>
+<!-- Load scripts for freeCodeCamp project tests -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="js/script.js"></script>
+
 </html>
