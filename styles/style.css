@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   font-family: "Oswald", sans-serif;
   background-color: #faefbf;
 }
@@ -82,9 +82,9 @@ header {
     margin-right: 10px;
     margin-top: 300px;
   }
-  
+
   /* rule to ensure navlinks jump to correct place on screen taking navbar into account */
-  .main-section:before {
+  .main-section::before {
     display: block;
     content: "";
     height: 300px;
